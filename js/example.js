@@ -12,7 +12,6 @@ var newitemFirst = document.createElement('li');
 var newtextFirst = document.createTextNode('kale');
 newitemFirst.appendChild(newtextFirst);
 list.insertBefore(newitemFirst, list.firstChild);
-
 var listitems = document.querySelectorAll('li');
 
 //add a class of cool to all list items
